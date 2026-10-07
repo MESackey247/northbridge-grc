@@ -1,0 +1,94 @@
+Control ID,Theme,Control Name,Applicable,Justification,Existing Control / Evidence Link
+A.5.1,Organizational,Policies for information security,Yes,Mandatory for governance alignment,01-governance/access-control-policy.md
+A.5.2,Organizational,Information security roles and responsibilities,Yes,Defines security ownership across 3LoD,01-governance/3lod.md
+A.5.3,Organizational,Segregation of duties,Yes,Prevents single-point unauthorized actions,Access Control Policy
+A.5.4,Organizational,Management responsibilities,Yes,Ensures executive oversight,ISMS Scope
+A.5.5,Organizational,Contact with authorities,Yes,Required for UK GDPR breach reporting (ICO),02-risk/methodology.md
+A.5.6,Organizational,Contact with special interest groups,Yes,Industry security threat sharing,02-risk/methodology.md
+A.5.7,Organizational,Threat intelligence,Yes,Monitors emerging threats to SaaS platform,02-risk/register.csv
+A.5.8,Organizational,Information security in project management,Yes,Ensures security in software dev lifecycle,01-governance/scope.md
+A.5.9,Organizational,Inventory of information and other associated assets,Yes,Required for AWS cloud resource management,02-risk/register.csv
+A.5.10,Organizational,Acceptable use of information and other associated assets,Yes,Governs employee system usage,01-governance/acceptable-use-policy.md
+A.5.11,Organizational,Return of assets,Yes,Protects hardware during staff offboarding,01-governance/acceptable-use-policy.md
+A.5.12,Organizational,Classification of information,Yes,Protects patient scheduling data & PII,01-governance/scope.md
+A.5.13,Organizational,Labelling of information,Yes,Ensures clear data sensitivity levels,01-governance/scope.md
+A.5.14,Organizational,Information transfer,Yes,Secures patient data in transit,01-governance/scope.md
+A.5.15,Organizational,Access control,Yes,Enforces least privilege access,01-governance/access-control-policy.md
+A.5.16,Organizational,Identity management,Yes,Manages AWS IAM and corporate identities,01-governance/access-control-policy.md
+A.5.17,Organizational,Authentication information,Yes,Mandates MFA across all accounts,01-governance/access-control-policy.md
+A.5.18,Organizational,Access rights,Yes,Quarterly access reviews required,01-governance/access-control-policy.md
+A.5.19,Organizational,Information security in supplier relationships,Yes,Third-party risk management required,02-risk/register.csv
+A.5.20,Organizational,Addressing information security within supplier agreements,Yes,Ensures vendor compliance contracts,02-risk/register.csv
+A.5.21,Organizational,Managing information security in the ICT supply chain,Yes,Monitors cloud vendor infrastructure,02-risk/register.csv
+A.5.22,Organizational,Monitoring, review and change management of supplier services,Yes,Annual TPRM vendor evaluations,02-risk/register.csv
+A.5.23,Organizational,Information security for use of cloud services,Yes,Governs AWS cloud environment,01-governance/scope.md
+A.5.24,Organizational,Information security incident management planning and preparation,Yes,Incident response requirements,01-governance/scope.md
+A.5.25,Organizational,Assessment and decision on information security events,Yes,Breach notification evaluation,02-risk/register.csv
+A.5.26,Organizational,Response to information security incidents,Yes,Coordinates incident handling,02-risk/register.csv
+A.5.27,Organizational,Learning from information security incidents,Yes,Post-incident root cause analysis,02-risk/register.csv
+A.5.28,Organizational,Collection of evidence,Yes,Digital forensics & audit trail preservation,02-risk/register.csv
+A.5.29,Organizational,Information security during disruption,Yes,Ensures business continuity,02-risk/register.csv
+A.5.30,Organizational,ICT readiness for business continuity,Yes,AWS multi-region readiness,02-risk/register.csv
+A.5.31,Organizational,Legal, statutory, regulatory and contractual requirements,Yes,UK GDPR & DPA 2018 compliance,01-governance/scope.md
+A.5.32,Organizational,Intellectual property rights,Yes,Protects proprietary ML algorithms,01-governance/scope.md
+A.5.33,Organizational,Protection of records,Yes,Data retention guidelines,01-governance/scope.md
+A.5.34,Organizational,Privacy and protection of PII,Yes,Protects patient health data,01-governance/scope.md
+A.5.35,Organizational,Independent review of information security,Yes,External ISO audits (3rd Line),01-governance/3lod.md
+A.5.36,Organizational,Compliance with policies and standards for information security,Yes,Internal GRC compliance checks,01-governance/3lod.md
+A.5.37,Organizational,Documented operating procedures,Yes,Standard operating procedures,01-governance/3lod.md
+A.6.1,People,Screening,Yes,Pre-employment background checks,01-governance/acceptable-use-policy.md
+A.6.2,People,Terms and conditions of employment,Yes,Confidentiality clauses in contracts,01-governance/acceptable-use-policy.md
+A.6.3,People,Information security awareness, education and training,Yes,Mandatory annual security training,01-governance/acceptable-use-policy.md
+A.6.4,People,Disciplinary process,Yes,Policy violation consequences,01-governance/acceptable-use-policy.md
+A.6.5,People,Responsibilities after termination or change of employment,Yes,Immediate account revocation,01-governance/access-control-policy.md
+A.6.6,People,Confidentiality or non-disclosure agreements,Yes,NDAs for staff and contractors,01-governance/acceptable-use-policy.md
+A.6.7,People,Remote working,Yes,Secures 100% remote UK workforce,01-governance/acceptable-use-policy.md
+A.6.8,People,Information security event reporting,Yes,Mandatory reporting of suspicious activity,01-governance/acceptable-use-policy.md
+A.7.1,Physical,Physical security perimeters,No,Northbridge is 100% cloud-native with no data centers,N/A - Fully Cloud Hosted on AWS
+A.7.2,Physical,Physical entry,No,No physical server rooms operated,N/A - Fully Cloud Hosted on AWS
+A.7.3,Physical,Securing offices, rooms and facilities,Yes,Secures corporate remote laptops,01-governance/acceptable-use-policy.md
+A.7.4,Physical,Physical security monitoring,No,Handled by AWS under Shared Responsibility,AWS Shared Responsibility Model
+A.7.5,Physical,Protecting against physical and environmental threats,No,Handled by AWS data centers,AWS Shared Responsibility Model
+A.7.6,Physical,Working in secure areas,No,No physical secure rooms maintained,N/A - Fully Cloud Hosted on AWS
+A.7.7,Physical,Clear desk and clear screen,Yes,Prevents screen scraping on remote devices,01-governance/acceptable-use-policy.md
+A.7.8,Physical,Equipment siting and protection,Yes,Protects remote hardware,01-governance/acceptable-use-policy.md
+A.7.9,Physical,Security of assets off-premises,Yes,Secures remote staff hardware,01-governance/acceptable-use-policy.md
+A.7.10,Physical,Storage media,Yes,Mandatory full-disk encryption,01-governance/acceptable-use-policy.md
+A.7.11,Physical,Supporting utilities,No,Handled by AWS cloud infrastructure,AWS Shared Responsibility Model
+A.7.12,Physical,Cabling security,No,Handled by AWS cloud infrastructure,AWS Shared Responsibility Model
+A.7.13,Physical,Equipment maintenance,Yes,Endpoint hardware maintenance,01-governance/acceptable-use-policy.md
+A.7.14,Physical,Secure disposal or re-use of equipment,Yes,Secure laptop wiping protocols,01-governance/acceptable-use-policy.md
+A.8.1,Technological,User endpoint devices,Yes,Endpoint encryption and MDM management,01-governance/acceptable-use-policy.md
+A.8.2,Technological,Privileged access rights,Yes,Restricted AWS root & admin accounts,01-governance/access-control-policy.md
+A.8.3,Technological,Information access restriction,Yes,Role-Based Access Control (RBAC),01-governance/access-control-policy.md
+A.8.4,Technological,Access to source code,Yes,GitHub repository permissions,01-governance/access-control-policy.md
+A.8.5,Technological,Secure authentication,Yes,MFA enforcement on all platforms,01-governance/access-control-policy.md
+A.8.6,Technological,Capacity management,Yes,AWS auto-scaling monitoring,02-risk/register.csv
+A.8.7,Technological,Protection against malware,Yes,Endpoint anti-malware protection,01-governance/acceptable-use-policy.md
+A.8.8,Technological,Management of technical vulnerabilities,Yes,Automated dependency scanning,02-risk/register.csv
+A.8.9,Technological,Configuration management,Yes,Infrastructure-as-Code state files,02-risk/register.csv
+A.8.10,Technological,Information deletion,Yes,GDPR Right to Erasure compliance,01-governance/scope.md
+A.8.11,Technological,Data masking,Yes,Anonymizes patient data in testing,01-governance/scope.md
+A.8.12,Technological,Data leakage prevention,Yes,AWS S3 Block Public Access,02-risk/register.csv
+A.8.13,Technological,Information backup,Yes,Automated multi-region backups,02-risk/register.csv
+A.8.14,Technological,Redundancy of information processing facilities,Yes,AWS multi-AZ deployment,02-risk/register.csv
+A.8.15,Technological,Logging,Yes,AWS CloudTrail auditing enabled,02-risk/register.csv
+A.8.16,Technological,Monitoring activities,Yes,Automated threat alerts,02-risk/register.csv
+A.8.17,Technological,Clock synchronization,Yes,NTP synchronization across servers,02-risk/register.csv
+A.8.18,Technological,Use of privileged utility programs,Yes,Restricted administrative scripts,01-governance/access-control-policy.md
+A.8.19,Technological,Installation of software on operational systems,Yes,Restricted user installation permissions,01-governance/acceptable-use-policy.md
+A.8.20,Technological,Networks security,Yes,AWS Virtual Private Cloud (VPC) isolation,01-governance/scope.md
+A.8.21,Technological,Security of network services,Yes,Encrypted API connections (HTTPS/TLS),01-governance/scope.md
+A.8.22,Technological,Segregation of networks,Yes,Public vs Private AWS subnets,01-governance/scope.md
+A.8.23,Technological,Web filtering,Yes,Prevents malicious site access,01-governance/acceptable-use-policy.md
+A.8.24,Technological,Use of cryptography,Yes,AES-256 encryption at rest and in transit,01-governance/scope.md
+A.8.25,Technological,Secure development life cycle (SDLC),Yes,DevSecOps pipeline security controls,02-risk/register.csv
+A.8.26,Technological,Application security requirements,Yes,OWASP security standards,02-risk/register.csv
+A.8.27,Technological,Secure system architecture and engineering principles,Yes,AWS Well-Architected Framework,01-governance/scope.md
+A.8.28,Technological,Secure coding,Yes,Code reviews and static analysis,01-governance/ai-acceptable-use-policy.md
+A.8.29,Technological,Security testing in development and acceptance,Yes,Automated pipeline vulnerability scans,02-risk/register.csv
+A.8.30,Technological,Outsourced development,Yes,Third-party code reviews,02-risk/register.csv
+A.8.31,Technological,Separation of development, testing and production environments,Yes,Isolated AWS environments,01-governance/access-control-policy.md
+A.8.32,Technological,Change management,Yes,Pull Request code review process,01-governance/access-control-policy.md
+A.8.33,Technological,Test information,Yes,Synthetic test data (no live PII),01-governance/ai-acceptable-use-policy.md
+A.8.34,Technological,Protection of information systems during audit testing,Yes,Audit logging protection,01-governance/3lod.md
