@@ -1,0 +1,8 @@
+Vendor Name,Category,Data Access / Scope,Inherent Risk,Compliance Evidence,DPA Signed,Approval Status
+AWS (Amazon Web Services),Cloud Infrastructure,"Hosts platform database, application servers, and patient records",Critical,"SOC 2 Type II, ISO 27001, ISO 27017/27018",Yes,Approved
+Auth0 (Okta),Identity & Access Management,User identity authentication and SSO session tokens,Critical,SOC 2 Type II,Yes,Approved
+GitHub,Developer Tools / Code Repository,"Source code hosting, CI/CD pipelines (no live PII)",High,SOC 2 Type II,Yes,Approved
+Google Workspace,Corporate Productivity,"Employee email, calendar, and internal documents",High,SOC 2 Type II,Yes,Approved
+OpenAI,AI Model Provider,"API interface for triage assistance (Zero Data Retention contract)",High,SOC 2 Type II,Yes,Approved (Conditional)
+Datadog,Monitoring & Telemetry,"System performance telemetry, operational logs (PII masked)",Medium,SOC 2 Type II,Yes,Approved
+Slack,Internal Communication,"Team messaging, internal support channels (No PII allowed)",Low,SOC 2 Type II,Yes,Approved
